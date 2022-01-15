@@ -78,7 +78,7 @@ namespace NewsletterProject.Controllers
         }
 
 
-        [HttpGet("/authors/{userid}")]
+        [HttpGet("authors/{userid}")]
         public IActionResult GetByAuthor(int userid)
         {
             
